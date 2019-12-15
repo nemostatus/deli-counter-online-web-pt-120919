@@ -12,11 +12,12 @@ def line(array)
     line(katz_deli)
     
   
-def take_a_number(line,name)
-  line.push(name)
-   "Welcome #{name}. You are number #{line.length} in line."
-   line
+katz_deli = ["Moshe", "Fayge", "Rivki"]
+def take_a_number(line, new_person)
+  line.push(new_person) 
+  puts "Welcome, #{new_person}. You are number #{line.length} in line."
 end
-take_a_number(katz_deli,"Ada")
+
+take_a_number(katz_deli, "Fyvish")
       
    
