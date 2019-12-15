@@ -12,12 +12,6 @@ def line(array)
     
   
 def take_a_number(line,name)
-  if name == line[-1]
-  puts "Welcome, #{name} You are number #{line.length} in line."
-  else 
-  nil
-  end
-  end
-  take_a_number(["Ada"],"Ada")
+  
       
    
