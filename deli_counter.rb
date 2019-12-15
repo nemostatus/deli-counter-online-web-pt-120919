@@ -1,3 +1,4 @@
+
 def line(array)
   if array.size == 0
     puts "The line is currently empty."
@@ -15,6 +16,6 @@ def take_a_number(line,name)
   line.push(name)
   puts "Welcome #{name}. You are number #{line.length} in line."
 end
-take_a_number([["Moshe", "Fayge", "Rivki"]], "Frvish")
+take_a_number(katz_deli)
       
    
