@@ -15,6 +15,7 @@ def line(array)
 def take_a_number(line,name)
   line.push(name)
    "Welcome #{name}. You are number #{line.length} in line."
+   line
 end
 take_a_number(katz_deli,"Ada")
       
