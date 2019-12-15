@@ -12,6 +12,6 @@ def line(array)
     
   
 def take_a_number(line,name)
-  line.push("new name")
+  line.push(nsme)
       
    
